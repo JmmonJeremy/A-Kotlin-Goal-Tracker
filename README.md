@@ -1,6 +1,6 @@
 # Kotlin Goal Tracker
 
-Add a description of your project here.
+This is a Kotlin program for tracking personal goals under the time categories of  LIFETIME, DECADE, YEARLY, MONTHLY, WEEKLY, and DAILY. The program runs in the terminal. The program has a main menu that allows you to add goals, list all goals, list goals under a specific time category, mark goals as completed, and remove goals. 
 
 ## Instructions for Build and Use
 
