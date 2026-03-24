@@ -1,0 +1,61 @@
+# Kotlin Goal Tracker
+
+Add a description of your project here.
+
+## Instructions for Build and Use
+
+[Software Demo](Put_Your_Video_Link_Here)
+
+Steps to build and/or run the software:
+
+1. Go to the website https://code.visualstudio.com/ and click on the "Download for Windows" button to install.
+2. Go to the website https://adoptium.net/ and install JDK 17 LTS
+3. Go to the website https://gradle.org/releases/ and Download the binary-only zip & add the path to gradle-9.4.0\bin in Environment Variables → System variables → Path → Edit → New
+4. Run the command ./gradlew build inside the project's folder to create a Gradle Wrapper
+5. Got to VS Code's EXTENSION tool and install Gradle for Java by Microsoft, Kotlin Language by mathiasfrohlich, and Kotlin by fwcd
+6. Then in VS Code enter CTRL + SHIFT + P and enter Preferences: Open Workspace Settings (JSON) to open the settings.json file and add "kotlin.diagnostics.enabled": false
+7. I included the .vscode folder with the settings.json file in the repository so that you can have all the settings associated with the extensions - the one above is the most important
+8. Go to the website https://github.com/JetBrains/kotlin/releases and download the Command-line compiler (Windows .zip) - kotlin-compiler-2.3.20.zip & add the path to kotlinc\bin in Environment Variables → System variables → Path → Edit → New
+9. Put the code files of App.kt, DateFormatAndAnsiStyles.kt, Goal.kt, GoalTimePeriod.kt, and GoalTracker.kt in place in the app/src/main/kotlin/<etc.> folder and the AppTest.kt in the app/src/test/kotlin/<etc.>
+10. Replace packagename with a proper package for you by replacing the package import in the files to com.<your name>.goaltracker,change the folder path where I put etc with com/<your name>/goaltracker, move all the files into that folder, and do the same for the AppTest.kt file.
+11. Open app/build.gradle.kts, find the application { mainClass = "<etc.>" } section and change it to application { mainClass = "com.<your name>.goaltracker.AppKt" }
+12. To run the program enter the command .\gradlew run the program, to run the test enter .\gradlew test, to rerun a test enter .\gradlew test --rerun-tasks, and if issues to clear out issues enter .\gradlew clean
+
+Instructions for using the software:
+
+1. With VS Code open the A Kotlin Goal Tracker folder or whatever you name your folder holding the Kotlin project
+2. In the terminal for VS Code enter the command .\gradlew run to start the program
+3. User the terminal to enter selections of Add goal, View all goals, View goals by timeframe, Change goal status, Remove a goal, and Exit
+
+## Development Environment
+
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
+
+* Visual Studio Code
+* JDK 17 LTS
+* Gradle
+* Gradle for Java Extension by Microsoft
+* Kotlin (kotlin-compiler-2.3.20)
+* Kotlin Language Extension by mathiasfrohlich
+* Kotlin Extension by fwcd
+* ANSI Escape Sequences
+* Git / GitHub
+
+## Useful Websites to Learn More
+
+I found these websites useful in developing this software:
+
+### Visual Studio Code :
+* [Visual Studio Code & GitHub](https://code.visualstudio.com/docs/sourcecontrol/overview)
+* [Installing the Extension Pack for Java](https://code.visualstudio.com/docs/languages/java)
+* [Website Title](Link)
+* 
+*
+
+## Future Work
+
+The following items I plan to fix, improve, and/or add to this project in the future:
+
+* [ ] I will add a menu option and function to be able to modify an existing goal
+* [ ] I will add try catch while loop to catch entries besides n or y so that false entries do not cancel for delete and add options
+* [ ] I will add coloring to the completion status for goals that are completed when listing out goals
