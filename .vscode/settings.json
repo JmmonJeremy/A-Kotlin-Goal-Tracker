@@ -1,0 +1,102 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "code-runner.executorMap": {
+    "kotlin": "cd $dir; kotlinc (Get-ChildItem -Filter *.kt | ForEach-Object {$_.Name}) -include-runtime -d main.jar; java -jar main.jar"
+    },
+  "code-runner.runInTerminal": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "storage.type.kotlin",
+        "settings": {
+          "foreground": "#85cef5"
+        }
+      },
+      {
+        "scope": "string.quoted.double.kotlin",
+        "settings": {
+          "foreground": "#baf998"
+        }
+      },
+      {
+        "scope": "keyword.other.kotlin",
+        "settings": {
+          "foreground": "#fda829"
+        }
+      },
+      {
+        "scope": "entity.name.function.kotlin",
+        "settings": {
+          "foreground": "#efd4a1"
+        }
+      },
+      {
+        "scope": "support.function.kotlin",
+        "settings": {
+          "foreground": "#c870fa"
+        }
+      },
+      {
+        "scope": "storage.modifier.import.java",
+        "settings": {
+          "foreground": "#cf98ef"
+        }
+      },
+      {
+        "scope": "entity.name.package.kotlin",
+        "settings": {
+          "foreground": "#efd4a1"
+        }
+      },
+      {
+        "scope": "meta.block.kotlin",
+        "settings": {
+          "foreground": "#1f58f6"
+        }
+      },
+      {
+        "scope": "keyword.operator.comparison.kotlin",
+        "settings": {
+          "foreground": "#e31717"
+        }
+      }, 
+      {
+        "scope": "keyword.operator.arithmetic.kotlin",
+        "settings": {
+          "foreground": "#e31717"
+        }
+      },      
+    ]
+  },
+  "todohighlight.isEnable": true,
+  "todohighlight.keywordsPattern": "\\$[a-zA-Z_][a-zA-Z0-9_]*\\b|\\$\\{[^}]+\\}", //highlight $identifier (simple variable)  or ${ ... }
+    "todohighlight.defaultStyle": {
+        "color": "#85cef5",
+        "backgroundColor": "transparent", 
+    },
+    // Only apply to .kt and .gradle / .gradle.kts files
+    "todohighlight.include": [
+      "**/*.kt",
+      "**/*.gradle",
+      "**/*.gradle.kts"
+    ],
+    "todohighlight.exclude": [
+        "**/*.json",                              // ← excludes ALL .json files
+        ".vscode/settings.json",                  // exact workspace root file
+        "**/.vscode/settings.json",               // any nested .vscode/settings.json
+        "**/.vscode/**",                          // entire .vscode folder anywhere
+        "**/settings.json",                       // any file named settings.json
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**",       
+    ],
+  "kotlin.diagnostics.enabled": false,
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

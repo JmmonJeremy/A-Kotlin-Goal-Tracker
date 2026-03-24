@@ -1,0 +1,7 @@
+YEARLY`Woodshed`Build a woodshed in the backyard`2025-01-01`2025-12-31`5`3`false
+YEARLY`Weightloss`Lose 40 Lbs`2026-03-01`2026-12-31`3`2`false
+MONTHLY`Finish classes`Finish CSE 270 and CSE 310 with A's`2026-03-01`2026-03-31`2`4`false
+WEEKLY`Count Calories`Record all the calories I eat with each meal`2026-03-22`2026-03-22`4`5`false
+DAILY`Exercise`Exercise on the exercise bike for 30 minutes`2026-03-23`2026-03-23`2`7`false
+DAILY`Up Early`Get up at 5am and start my day`2026-03-23`2026-03-23`3`6`false
+DAILY`Scripture Routine`Read 10 verses in the scriptures, recite memorized verse and positive affirations, listen to the Book of Mormon for 15 minutes, listen to one General Conference talk, and listen to one Church Hymn`2026-03-24`2026-03-24`1`8`false
