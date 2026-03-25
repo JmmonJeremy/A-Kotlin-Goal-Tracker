@@ -19,12 +19,12 @@ Steps to build and/or run the software:
 9. Put the code files of App.kt, DateFormatAndAnsiStyles.kt, Goal.kt, GoalTimePeriod.kt, and GoalTracker.kt in place in the app/src/main/kotlin/<etc.> folder and the AppTest.kt in the app/src/test/kotlin/<etc.>
 10. Replace packagename with a proper package for you by replacing the package import in the files to com.<your name>.goaltracker,change the folder path where I put etc with com/<your name>/goaltracker, move all the files into that folder, and do the same for the AppTest.kt file.
 11. Open app/build.gradle.kts, find the application { mainClass = "<etc.>" } section and change it to application { mainClass = "com.<your name>.goaltracker.AppKt" }
-12. To run the program enter the command .\gradlew run the program, to run the test enter .\gradlew test, to rerun a test enter .\gradlew test --rerun-tasks, and if issues to clear out issues enter .\gradlew clean
+12. To run the program enter the command .\gradlew run --console=plain the program, to run the test enter .\gradlew test, to rerun a test enter .\gradlew test --rerun-tasks, and if issues to clear out issues enter .\gradlew clean
 
 Instructions for using the software:
 
 1. With VS Code open the A Kotlin Goal Tracker folder or whatever you name your folder holding the Kotlin project
-2. In the terminal for VS Code enter the command .\gradlew run to start the program
+2. In the terminal for VS Code enter the command .\gradlew run --console=plain to start the program
 3. User the terminal to enter selections of Add goal, View all goals, View goals by timeframe, Change goal status, Remove a goal, and Exit
 
 ## Development Environment
