@@ -9,7 +9,7 @@ build
 
 
 # Ignore text files
-.txt
+*.txt
 
 # Kotlin / Java
 *.class
