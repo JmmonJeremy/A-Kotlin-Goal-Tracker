@@ -100,7 +100,7 @@ class GoalTracker {
                 GoalTimePeriod.entries.maxOf { it.name.length }
             )
 
-            println("\n=== $paddedCategory GOALS ===")
+            println("\n=== $paddedCategory GOALS ===${Ansi.RESET}")
 
             var lastStartDate: LocalDate? = null
             found.forEachIndexed { index, goal ->
@@ -117,8 +117,8 @@ class GoalTracker {
     }
 
     fun deleteGoalById(id: Int) {
-    val removed = goals.removeIf { it.id == id }    
-}
+        val removed = goals.removeIf { it.id == id }    
+    }
 
     @Throws(IOException::class)
     fun saveToFile() {
