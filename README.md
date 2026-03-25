@@ -48,9 +48,37 @@ I found these websites useful in developing this software:
 ### Visual Studio Code :
 * [Visual Studio Code & GitHub](https://code.visualstudio.com/docs/sourcecontrol/overview)
 * [Installing the Extension Pack for Java](https://code.visualstudio.com/docs/languages/java)
-* [Website Title](Link)
-* 
-*
+* [VS Code Java build tools Docs](https://code.visualstudio.com/docs/java/java-build)
+* [VS Code & Gradle Docs](https://docs.gradle.org/current/userguide/gradle_ides.html#visual_studio_code)
+* [VS Code Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+* [VS Code Kotlin IDE](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
+* [Configure VS Code to Debug a Gradle/Kotlin Project](https://stackoverflow.com/questions/75418906/how-to-configure-vscode-to-debug-a-gradle-kotlin-project)
+* [Debugging Kotlin program using VSCode](https://medium.com/@thunderz99/debugging-kotlin-program-using-vscode-318ed43fe2f0)
+* [Learning Kotlin: Programming with VS Code](https://dev.to/mwrpwr/learning-kotlin-programming-with-visual-studio-code-5e29)
+* [Running Gradle from VS Code](https://www.syncfusion.com/succinctly-free-ebooks/gradle-succinctly/running-gradle-from-visual-studio-code)
+
+### Gradle :
+* [Installing Gradle Docs](https://docs.gradle.org/current/userguide/installation.html)
+* [Gradle Overview Docs](https://kotlinlang.org/docs/gradle.html)
+* [Get Started with Gradle and Kotlin Docs](https://kotlinlang.org/docs/get-started-with-jvm-gradle-project.html)
+* [Configure a Gradle Project Docs](https://kotlinlang.org/docs/gradle-configure-project.html)
+* [Building Kotlin Applications Sample Docs](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
+* [Building Kotlin Applications with Libraries Docs](https://docs.gradle.org/current/samples/sample_building_kotlin_applications_multi_project.html)
+* [Gradle Fundamentals](https://tomgregory.com/gradlebuildbible)
+* [Setting up Gradle with Kotlin](https://dispatchersdotplayground.hashnode.dev/setting-up-gradle-with-kotlin-dsl-a-simple-guide)
+* [Using Gradle with Kotlin](https://medium.com/@AlexanderObregon/using-gradle-with-kotlin-dsl-a-step-by-step-guide-65a70955edc8)
+
+### Kotlin :
+* [Comparison to Java Docs](https://kotlinlang.org/docs/comparison-to-java.html)
+* [Basic syntax overview Docs](https://kotlinlang.org/docs/basic-syntax.html)
+* [Learn Kotlin Programming Tutorials](https://www.programiz.com/kotlin-programming)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 
 ## Future Work
 
